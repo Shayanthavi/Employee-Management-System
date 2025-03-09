@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+.center-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    }
+    
+    .center-form Form {
+        max-width: 400px;
+        width: 100%;
+        padding: 20px;
+        border: 1px solid #ccc;
+        background-color: #d29999;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        text-align: center;
+        max-width: 400px;
+        width: 100%;
+        padding: 20px;
+        border: 1px solid rgba(149, 210, 243, 0.3);
+        background: rgba(132, 202, 227, 0.2);  /* Adjust transparency of #d29999 */
+        backdrop-filter: blur(15px);           /* Glassmorphic blur effect */
+        -webkit-backdrop-filter: blur(15px);   /* WebKit compatibility */
+        border-radius: 15px;                  /* Rounded corners for smooth look */
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25); /* Soft shadow for depth */
+       color: #333;
+        text-align: center;
+    
+        
+    }
+    
+    .center-form Form .form-control{
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+
+   
+    

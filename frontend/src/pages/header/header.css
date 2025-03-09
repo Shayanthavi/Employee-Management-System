@@ -1,0 +1,37 @@
+
+
+.navbar{
+    background-color: #fff;
+}
+.navbar.navbar-brand{
+    color: #fff;
+}
+
+.navbar.nav-link{
+    color: #fff !important;
+    text-decoration:none !important;
+    margin-right:20px;
+}
+@media(max-width:576px){
+    .navbar.nav-link{
+        margin-right:0;
+    }
+}
+
+.custom-navbar {
+    background-color: #d29999 !important;/* Custom color */
+    border-bottom: 2px solid #c84662;     /* Optional: Add a border */
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+    color: #ffffff !important;  /* Text color */
+}
+
+.custom-navbar .nav-link:hover {
+    color: #f0b3b3 !important; /* Hover effect */
+}
+
+.custom-navbar {
+    background-color: rgb(200, 70, 98) !important;
+}
